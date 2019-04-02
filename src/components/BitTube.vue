@@ -6,7 +6,7 @@
 	  >
 	    <v-navigation-drawer
 	      
-	      
+	      clipped
 	      v-model="drawer"
 	      app
 	    >
@@ -21,7 +21,7 @@
 	            </v-list-tile-title>
 	          </v-list-tile-content>
 	        </v-list-tile>
-	        <v-subheader class="mt-3 grey--text text--darken-1">SUBSCRIPTIONS</v-subheader>
+	        <v-subheader class="mt-3 grey--text text--darken-1">TEAM MEMBERS</v-subheader>
 	        <v-list>
 	          <v-list-tile v-for="item in items2" :key="item.text" avatar @click="">
 	            <v-list-tile-avatar>
@@ -102,11 +102,10 @@
         { icon: 'watch_later', text: 'Watch Later' }
       ],
       items2: [
-        { picture: 28, text: 'Joseph' },
-        { picture: 38, text: 'Apple' },
-        { picture: 48, text: 'Xbox Ahoy' },
-        { picture: 58, text: 'Nokia' },
-        { picture: 78, text: 'MKBHD' }
+        { picture: 28, text: 'Taewoo' },
+        { picture: 38, text: 'Fahim' },
+        { picture: 48, text: 'Sinclair' },
+        { picture: 58, text: 'Ali' }
       ]
     }),
     props: {
